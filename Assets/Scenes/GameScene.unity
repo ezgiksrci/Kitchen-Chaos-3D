@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &2678180 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1168166468}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fd1f8c565325e4186246fe6c297343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &183117932
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,6 +350,18 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &356416746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+    type: 3}
+  m_PrefabInstance: {fileID: 6293088455634224007}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14fd1f8c565325e4186246fe6c297343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,10 +853,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 8c9d9fca5f71d2546b5dd3a794746231,
+        type: 2}
+    - target: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 356416746}
     - target: {fileID: 9055125126361390617, guid: 259f191623c6317469c23dc6ca71bdf3,
         type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9055125126361390617, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -888,7 +928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameInput: {fileID: 183117933}
-  clearCounterLayer:
+  countersLayerMask:
     serializedVersion: 2
     m_Bits: 64
   moveSpeed: 5
@@ -1067,6 +1107,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 394318690726958600, guid: cff7692f44d75dc4c960785da14b90aa,
+        type: 3}
+    - target: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 8a3cb1183fd0de349ac198dd66262855,
+        type: 2}
+    - target: {fileID: 8316923714918854232, guid: 259f191623c6317469c23dc6ca71bdf3,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 2678180}
     - target: {fileID: 9055125126361390617, guid: 259f191623c6317469c23dc6ca71bdf3,
         type: 3}
       propertyPath: m_Name

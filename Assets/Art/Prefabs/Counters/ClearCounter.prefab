@@ -11,12 +11,12 @@ PrefabInstance:
     - target: {fileID: 4246675311179399278, guid: fd2c6f8f89639214499e9acb3bf8d6cf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4246675311179399278, guid: fd2c6f8f89639214499e9acb3bf8d6cf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4246675311179399278, guid: fd2c6f8f89639214499e9acb3bf8d6cf,
         type: 3}
@@ -26,7 +26,7 @@ PrefabInstance:
     - target: {fileID: 4246675311179399278, guid: fd2c6f8f89639214499e9acb3bf8d6cf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4246675311179399278, guid: fd2c6f8f89639214499e9acb3bf8d6cf,
         type: 3}
@@ -115,8 +115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14fd1f8c565325e4186246fe6c297343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenObjectSO: {fileID: 11400000, guid: 8a3cb1183fd0de349ac198dd66262855, type: 2}
-  counterTopPoint: {fileID: 1950958229666040152}
+  kitchenObjectFollowTransform: {fileID: 1950958229666040152}
+  kitchenObjectSO: {fileID: 0}
 --- !u!1001 &5676471014152437378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -339,5 +339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8229120c4445d9d489ad11027dd9d164, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearCounter: {fileID: 84729307265710246}
-  selectedCounterVisual: {fileID: 3088236142041301038}
+  baseCounter: {fileID: 84729307265710246}
+  selectedCounterVisuals:
+  - {fileID: 3088236142041301038}

@@ -15,10 +15,12 @@ public class SelectedCounterVisual : MonoBehaviour
 
     private void Player_OnOnSelectedCounterChanged(object sender, Player.OnSelectedCounterChangedEventArgs e)
     {
+        // If the selected counter is the same as the counter, show the visuals.
         if (e.selectedCounter == baseCounter)
         {
             Show();
         }
+        // If the selected counter is not the same as the counter, hide the visuals.
         else
         {
             Hide();
@@ -27,6 +29,7 @@ public class SelectedCounterVisual : MonoBehaviour
 
     private void Show()
     {
+        // Show the selected counter visuals.
         foreach (GameObject selectedCounterVisual in selectedCounterVisuals)
         {
             selectedCounterVisual.SetActive(true);
@@ -35,6 +38,7 @@ public class SelectedCounterVisual : MonoBehaviour
 
     private void Hide()
     {
+        // Hide the selected counter visuals.
         foreach (GameObject selectedCounterVisual in selectedCounterVisuals)
         {
             selectedCounterVisual.SetActive(false);

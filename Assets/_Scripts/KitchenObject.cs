@@ -10,9 +10,9 @@ public class KitchenObject : MonoBehaviour
 
     public void DestroySelf()
     {
+        // Clear KitchenObject's parent and destroy the KitchenObject.
         kitchenObjectParent.ClearKitchenObject();
         Destroy(gameObject);
-
     }
 
     public KitchenObjectSO GetKitchenObjectSO()
@@ -20,21 +20,28 @@ public class KitchenObject : MonoBehaviour
         return kitchenObjectSO;
     }
 
+    // Sets the parent for the kitchen object and handles related actions.
     public void SetKitchenObjectParent(IKitchenObjectParent kitchenObjectParent)
     {
         if (this.kitchenObjectParent != null)
         {
+            // Clears the previous kitchen object if one exists in the current parent.
             this.kitchenObjectParent.ClearKitchenObject();
         }
+
+        // Set the new kitchen object parent.
         this.kitchenObjectParent = kitchenObjectParent;
 
         if (this.kitchenObjectParent.HasKitchenObject())
         {
+            // Check if the new parent already has a kitchen object and if it's true display an error.
             Debug.LogError("Counter already has a Kitchen Object!");
         }
 
+        // Set this KitchenObject as the Parent's KitchenObject.
         this.kitchenObjectParent.SetKitchenObject(this);
 
+        // Update KitchenObject's position to Parent's given position.
         transform.parent = this.kitchenObjectParent.GetKitchenObjectFollowTransform();
         transform.localPosition = Vector3.zero;
     }

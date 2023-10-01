@@ -15,6 +15,22 @@ public class ClearCounter : BaseCounter
                 // Set the parent of the kitchen object to the player.
                 GetKitchenObject().SetKitchenObjectParent(player);
             }
+            // If player is holding a Plate.
+            else if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
+            {
+                if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
+                {
+                    GetKitchenObject().DestroySelf();
+                }
+            }
+            //If player is not holding Plate but something else.
+            else if (GetKitchenObject().TryGetPlate(out plateKitchenObject))
+            {
+                if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKitchenObjectSO()))
+                {
+                    player.GetKitchenObject().DestroySelf();
+                }
+            }
         }
         // If this ClearCounter doesn't have a kitchen object placed on it.
         else if (!HasKitchenObject())

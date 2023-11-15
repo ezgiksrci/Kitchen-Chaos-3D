@@ -8,6 +8,11 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
     [SerializeField] private Transform kitchenObjectFollowTransform;
     private KitchenObject kitchenObject;
 
+    public static void ResetStaticData()
+    {
+        OnAnythingDrop = null;
+    }
+
     public virtual void Interact(Player player)
     {
         Debug.LogError("BaseCounter Interact() called. This should be overridden in a child class.");

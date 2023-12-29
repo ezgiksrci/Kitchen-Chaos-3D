@@ -16,8 +16,14 @@ public class StoveBurnFlashingBarUI : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.OnGameOver += GameManager_OnGameOver;
         stoveCounter.OnProgressChanged += StoveCounter_OnProgressChanged;
 
+        animator.SetBool(IS_FLASHING, false);
+    }
+
+    private void GameManager_OnGameOver(object sender, System.EventArgs e)
+    {
         animator.SetBool(IS_FLASHING, false);
     }
 

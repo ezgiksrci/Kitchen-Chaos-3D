@@ -8,7 +8,13 @@ public class StoveBurnWarningUI : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.OnGameOver += GameOver_OnGameOver;
         stoveCounter.OnProgressChanged += StoveCounter_OnProgressChanged;
+        Hide();
+    }
+
+    private void GameOver_OnGameOver(object sender, System.EventArgs e)
+    {
         Hide();
     }
 

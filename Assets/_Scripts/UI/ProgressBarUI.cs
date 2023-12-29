@@ -15,10 +15,16 @@ public class ProgressBarUI : MonoBehaviour
     {
         hasProgress = hasProgressGameObject.GetComponent<IHasProgress>();
 
+        GameManager.Instance.OnGameOver += GameManager_OnGameOver;
         hasProgress.OnProgressChanged += HasProgress_OnProgressChanged;
 
         barImage.fillAmount = 0f;
 
+        Hide();
+    }
+
+    private void GameManager_OnGameOver(object sender, EventArgs e)
+    {
         Hide();
     }
 

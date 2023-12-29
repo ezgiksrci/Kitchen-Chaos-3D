@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,8 +17,15 @@ public class StoveCounterSound : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.OnGameOver += GameManager_OnGameOver;
         stoveCounter.OnStateChanged += StoveCounter_OnStateChanged;
         stoveCounter.OnProgressChanged += StoveCounter_OnProgressChanged;
+    }
+
+    private void GameManager_OnGameOver(object sender, EventArgs e)
+    {
+        audioSource.Pause();
+        canPlayWarningSound = false;
     }
 
     private void StoveCounter_OnProgressChanged(object sender, IHasProgress.OnProgressChangedEventArgs e)

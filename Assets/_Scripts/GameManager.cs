@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public event EventHandler OnStateChanged;
     public event EventHandler OnGamePaused;
     public event EventHandler OnGameUnpaused;
+    public event EventHandler OnGameOver;
 
 
     private enum State
@@ -82,6 +83,7 @@ public class GameManager : MonoBehaviour
 
             case State.GameOver:
                 OnStateChanged?.Invoke(this, EventArgs.Empty);
+                OnGameOver?.Invoke(this, EventArgs.Empty);
                 break;
 
             default:

@@ -11,7 +11,14 @@ public class StoveCounterVisual : MonoBehaviour
 
     private void Start()
     {
+        GameManager.Instance.OnGameOver += GameManager_OnGameOver;
         stoveCounter.OnStateChanged += StoveCounter_OnStateChanged;
+    }
+
+    private void GameManager_OnGameOver(object sender, EventArgs e)
+    {
+        sizzlingParticles.SetActive(false);
+        stoveOnVisual.SetActive(false);
     }
 
     private void StoveCounter_OnStateChanged(object sender, StoveCounter.OnStateChangedEventArgs e)

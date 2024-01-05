@@ -2,7 +2,7 @@
 
 <div align="center">
 	
-![Kitchen Chaos](https://github.com/ezgiksrci/deneme/assets/16293095/2b1ab90f-798c-4541-868a-57ac7e5d892c)
+![KitchenChaosIcon](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/ac4ba53a-d01f-495c-b0e0-f146ba49994e)
   
 
 **🇹🇷** Kitchen Chaos; oyuncunun verilen süre içerisinde, ekrandaki rastgele yemek tariflerini doğru bir şekilde teslim etmesi gereken *Overcooked* benzeri **Single Player bir 3D Unity** oyunudur.
@@ -11,11 +11,13 @@
 
 ### Gameplay GIF
 
-![KitchenChaos_Gameplay](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/019e97a2-d44c-400b-96ab-c57c9ee4111e)
+![Gameplay_GIF](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/cc95fe1c-5b41-49aa-ae5d-7ad5c872dc42)
+
 
 ### Gameplay Video
 
-https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/3268b487-f53d-4a4f-9d8b-17d6c6a9bf57
+https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/fbb8de7c-d84b-4784-9a32-e04d26eb39e4
+
 
 </div>
  
@@ -257,66 +259,65 @@ Used PlayerPrefs to store game data, ensuring a continuous gaming experience for
 
 ### 1. Main Menu Scene
 
-![MainMenuScene](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/60a324c3-29b5-4593-b4f0-4bdb3ca95b61)
-
+![MainMenuScene](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/9464f140-6d99-452b-a971-81f28707baa3)
 
 ### 2. Loading Scene
 
-![LoadingScene](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/8734d860-af5a-4c36-9d33-a06a3d4e93cc)
-
+![LoadingScene](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/e8bde6f3-e5a1-4246-94b6-3acc493b9087)
 
 
 ### 3. Game Scene
 
 * #### *Game Scene Tutorial UI*
   
- ![GameScene_Tutorial](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/61501c2b-ad58-4ef0-8e3b-a04ca40782d1)
+![GameScene_Tutorial](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/959cbb8b-835a-49c4-b07c-c1d4c2432540)
+
 
 
 * #### *Game Scene Countdown UI*
-  
-![GameScene_Countdown](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/24d7a1c9-39f5-4779-973a-de7bc9127967)
+
+![GameScene_Countdown](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/bb0927b2-2385-45fd-8cd9-e9414bafea71)
 
 
 
 * #### *Game Scene Playing State*
   
-![GameScene_Playing](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/a3fa52a2-89a4-4baa-94ec-cbfbbfb606b9)
+![GameScene_Playing](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/acd9e85b-a16f-4167-b8a1-64222b757e43)
 
 
 * #### *Game Scene Success UI*
   
-![GameScene_Success](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/0168000d-f246-49ab-a7cb-eace09979501)
+![GameScene_Success](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/78ecd9eb-3d1a-42d2-815a-47753fa651d4)
 
 
 
 * #### *Game Scene Fail UI*
   
-![GameScene_Fail](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/0f44f05a-4f0f-4b13-8f9c-7f6534bb35b1)
+![GameScene_Fail](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/08f21ce9-2050-4122-bf46-faa63fe07975)
 
 
 
 * #### *Game Scene Pause UI*
   
-![GameScene_PauseUI](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/9eb16576-5b60-42e7-b399-4a4d1213d6d4)
+![GameScene_Pause](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/9c25f6ea-9eb5-4554-8e94-a0fd2429069a)
 
 
 
 * #### *Game Scene Options UI*
   
-![GameScene_OptionsUI](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/389dcb34-436b-4524-882b-4086d867808f)
+![GameScene_Options](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/9ef6d649-5cf7-441a-812b-a36d2c204b23)
 
 
 
 * #### *Game Scene Key Rebinding UI*
   
-![GameScene_KeyRebindingUI](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/5198a66a-8e41-4b18-b565-16928b66ff18)
+![GameScene_KeyRebinding](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/b7b358df-0dc2-47b1-a835-a157fa79701c)
 
 
 
 * #### *Game Scene Game Over UI*
   
-![GameScene_GameOverUI](https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/bb57871c-95e8-486c-b66b-e0634ab9ebf4)
+![GameScene_GameOver](https://github.com/ezgiksrci/Kitchen-Chaos-3D/assets/16293095/408b6a02-e162-415a-baf1-6ceb0b6fab1c)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>  

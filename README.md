@@ -21,8 +21,7 @@ https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/3268b487-f53d-4
  
 ----------
 <!-- TABLE OF SECTIONS -->
-<details>
-  <summary> <h2> Sections </h1></summary>
+  # Sections
   <ol>
 	  <li><a href="#Introduction">Introduction</a></li>
 	  <li><a href="#Lessons-Learned">Lessons Learned</a></li>
@@ -32,7 +31,6 @@ https://github.com/ezgiksrci/KitchenChaos_ReadMe/assets/16293095/3268b487-f53d-4
 	  <li><a href="#Roadmap">Roadmap</a></li>
 	  <li><a href="#Acknowledgements">Acknowledgements</a></li>
   </ol>
-</details>
 
 ----------
 
